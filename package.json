@@ -39,6 +39,12 @@
     ]
   },
   
+    "routes": [
+      { "src": "/static/(.*)", "dest": "/static/$1" },
+      { "src": "/(.*)", "dest": "/index.html" }
+    ],
+  
+  
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
