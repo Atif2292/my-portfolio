@@ -42,10 +42,10 @@ const paragraphs = [
                 <Col className="display-6" lg={8}>
                     <div className='text-center about-div' onClick={() => set(!flipped)}>
                         <animated.div className='c' style={{ opacity: opacity.interpolate(o => 1 - o), transform }}>
-                            <img src='/portfolio/atif.JPG' alt="#" className="about_image mb-3" />
+                            <img src='/atif.JPG' alt="#" className="about_image mb-3" />
                         </animated.div>
                         <animated.div className='c' style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
-                            <img src='/portfolio/stark.jpg' alt="#" className="about_image mb-3" />
+                            <img src='/stark.jpg' alt="#" className="about_image mb-3" />
                         </animated.div>
                     </div>
                     {animation}
