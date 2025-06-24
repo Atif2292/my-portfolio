@@ -33,11 +33,7 @@ const trails = useTrail(paragraphs.length, {
  const About = () => {
 
     const [grow, setGrow] = useState(true);
-//    const trails = useTrail(paragraphs.length, {
-//   fontSize: grow
-//     ? window.innerWidth < 576 ? '1.1rem' : '2rem'
-//     : window.innerWidth < 576 ? '1.3rem' : '3rem'
-// });
+
 
 
     const [flipped, set] = useState(false);
