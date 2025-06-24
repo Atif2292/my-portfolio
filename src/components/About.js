@@ -13,28 +13,12 @@ const paragraphs = [
   
 ];
 
-const [fontSize, setFontSize] = useState('2rem');
-
-useEffect(() => {
-  const handleResize = () => {
-    const isMobile = window.innerWidth < 576;
-    setFontSize(grow ? (isMobile ? '1.1rem' : '2rem') : (isMobile ? '1.3rem' : '3rem'));
-  };
-
-  handleResize(); // call on first render
-  window.addEventListener('resize', handleResize);
-
-  return () => window.removeEventListener('resize', handleResize);
-}, [grow]);
-
-const trails = useTrail(paragraphs.length, {
-  fontSize: fontSize,
-});
  const About = () => {
 
     const [grow, setGrow] = useState(true);
-
-
+    const trails = useTrail(paragraphs.length, {
+        fontSize: grow ? '2rem' : '3rem'
+    });
 
     const [flipped, set] = useState(false);
     const { transform, opacity } = useSpring({
