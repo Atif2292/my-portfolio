@@ -4,25 +4,25 @@
         title: 'React_E-Commerce Web Application',
         created: 'Oct 2023 - Dec 2023',
         description: 'The E-Commerce Application project is a dynamic web platform developed using the React.js framework, leveraging the Fetch API for seamless data retrieval and management. With a focus on user experience and functionality, this project aims to provide a robust e-commerce solution equipped with essential features for online shopping.',
-        demo_link: 'https://react-e-commerce-ao78eqs67-tonystarkk08s-projects.vercel.app',
-        github_link: 'https://github.com/tonystarkk08/e-commerce'
+        demo_link: 'https://styledbybuddy.vercel.app/',
+        github_link: 'https://github.com/Atif2292/my-tshirt-store-application'
     },
     {
-        title: 'Discord-Clone   ',
+        title: 'ALABAY WEBSITE   ',
         created: 'dec 2023 – feb2024',
-        description: `The Discord Clone project is a web application created with React.js, 
+        description: `The ALABAY WEBSITE project is a web application created with React.js, 
         React Router DOM, and NavLink. As a passionate developer, I undertook this project to 
         demonstrate my proficiency in frontend development and my ability to create dynamic and interactive web applications.`,
-        demo_link: 'https://discord-clone-jlso2qacc-tonystarkk08s-projects.vercel.app ',
-        github_link: 'https://github.com/tonystarkk08/Discord-Clone'
+        demo_link: 'https://alabay-project.vercel.app/ ',
+        github_link: 'https://github.com/Atif2292/Alabay-project    '
     },
   
     {
-        title: 'Quick-Shop',
+        title: 'Quote-app',
         created: 'Feb 2024 - currently working',
-        description: `The E-Commerce Application is a dynamic web platform developed using the React.js framework, featuring seamless data fetching with Axios and intuitive navigation using React Router DOM and NavLink. This project demonstrates my proficiency in frontend development and my ability to create robust and user-friendly e-commerce solutions.`,
-        demo_link: 'https://quick-shop-5q1w107z1-tonystarkk08s-projects.vercel.app ',
-        github_link: 'https://github.com/tonystarkk08/Quick-Shop'
+        description: `The Application is  web platform developed using the React.js framework.`,
+        demo_link: 'https://qutoe-app.vercel.app/ ',
+        github_link: 'https://github.com/Atif2292/qutoe-app'
     },
     // {
     //     title: 'mathApi',
