@@ -22,16 +22,32 @@ const Experience = () => {
         </Col>
       </Row>
 
-      <Row className="text-center justify-content-center">
-        {skills.map(({ icon, color, name }, index) => (
-          <Col key={index} xs={6} sm={4} md={3} className="mb-4">
-            <div className="glow" style={{ ['--color']: color, fontSize: '3rem' }}>
-              <i className={icon}></i>
-            </div>
-            <p className="mt-2 font-weight-bold">{name}</p>
-          </Col>
-        ))}
-      </Row>
+     <Row className="text-center justify-content-center">
+  {skills.map(({ icon, color, name }, index) => (
+    <Col
+      key={index}
+      xs={4}
+      sm={3}
+      md={2}
+      className="mb-4 d-flex flex-column align-items-center"
+    >
+      <div
+        className="glow"
+        style={{
+          ['--color']: color,
+          fontSize: '2.2rem',
+          padding: '15px',
+          borderRadius: '10px',
+        }}
+      >
+        <i className={icon}></i>
+      </div>
+      <p className="mt-2 mb-0" style={{ fontSize: '0.9rem' }}>
+        {name}
+      </p>
+    </Col>
+  ))}
+</Row>
 
       <Row className="text-center mt-5">
         <Col>

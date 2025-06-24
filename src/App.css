@@ -105,3 +105,10 @@
 .dark-mode .card-body {
   background-color: #102027;
 }
+/* Make glow icons responsive */
+.glow {
+  transition: transform 0.3s ease;
+}
+.glow:hover {
+  transform: scale(1.2);
+}
